@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_transparent_10">#15000000</color>
+    <color name="black_transparent_15">#23000000</color>
+    <color name="black_transparent_18">#29000000</color>
+    <color name="black_transparent_20">#39000000</color>
+    <color name="black_transparent_22">#3f000000</color>
+    <color name="black_transparent_25">#44000000</color>
+    <color name="black_transparent_40">#61000000</color>
+    <color name="black_transparent_45">#80000000</color>
+    <color name="black_transparent_50">#7e000000</color>
+    <color name="black_transparent_60">#a5000000</color>
+    <color name="black_transparent_80">#cc000000</color>
+    <color name="default_indicator_color_selected">#eeee</color>
+    <color name="default_indicator_color_unselected">#66eeeeee</color>
+    <color name="default_ripple_color">#fafafa</color>
+    <color name="transparent">#00000000</color>
+    <dimen name="default_dash_indicator_width">12dp</dimen>
+    <dimen name="default_indicator_margins">5dp</dimen>
+    <dimen name="default_indicator_size">8dp</dimen>
+    <dimen name="default_padding">0dp</dimen>
+    <dimen name="default_page_margin">0dp</dimen>
+    <dimen name="max_slider_indicator_size">16dp</dimen>
+    <dimen name="round_square_indicator_radius">2dp</dimen>
+    <dimen name="slider_image_corner">7dp</dimen>
+    <string name="app_name">sliderLibrary</string>
+    <declare-styleable name="BannerSlider">
+        <attr format="dimension" name="indicatorSize"/>
+        <attr format="dimension" name="pageMargin"/>
+        <attr format="dimension" name="paddingTop"/>
+        <attr format="dimension" name="paddingLeft"/>
+        <attr format="dimension" name="paddingRight"/>
+        <attr format="dimension" name="paddingBottom"/>
+        <attr format="reference" name="selected_slideIndicator"/>
+        <attr format="reference" name="unselected_slideIndicator"/>
+        <attr format="integer" name="defaultIndicators">
+            <enum name="circle" value="0"/>
+            <enum name="square" value="1"/>
+            <enum name="round_square" value="2"/>
+            <enum name="dash" value="3"/>
+        </attr>
+        <attr format="boolean" name="animateIndicators"/>
+        <attr format="integer" name="intervalSecond"/>
+        <attr format="boolean" name="loopSlides"/>
+        <attr format="boolean" name="hideIndicators"/>
+        <attr format="reference" name="imageDefault"/>
+        <attr format="integer" name="defaultTransformer">
+            <enum name="anti_clock_spin" value="1"/>
+            <enum name="carousel_effect" value="2"/>
+            <enum name="clock_spin" value="3"/>
+            <enum name="cube_in_rotation" value="4"/>
+            <enum name="cube_out_rotation" value="5"/>
+            <enum name="depth" value="6"/>
+            <enum name="fade_out" value="7"/>
+            <enum name="horizontal_flip" value="8"/>
+            <enum name="simple" value="9"/>
+            <enum name="spinner" value="10"/>
+            <enum name="vertical_flip" value="11"/>
+            <enum name="vertical_shut" value="12"/>
+            <enum name="zoom_out" value="13"/>
+        </attr>
+    </declare-styleable>
+</resources>

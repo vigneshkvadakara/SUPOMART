@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pulari</string>
+
+    <dimen name="slider_image_corner">11dp</dimen>
+</resources>

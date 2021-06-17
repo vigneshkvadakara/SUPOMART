@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000092</color>
+    <color name="colorPrimaryDark">#00006B</color>
+    <color name="colorAccent">#E55F05</color>
+
+    <color name="colorHidingFont">#B2B2B2</color>
+    <color name="colorEditText">#EEEEEE</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000</color>
+
+    <color name="colorTransparentWhite">#BFFFFFFF</color>
+
+    <color name="colorWhatsappGreen">#00CA29</color>
+    <color name="colorWhatsappGreen2">#00AC25</color>
+
+    <color name="colorLine">#DDDDDD</color>
+
+    <color name="colorShimmer1">#CCCCCC</color>
+    <color name="colorShimmer2">#AAAAAA</color>
+    <color name="colorCartRound">#FF5E14</color>
+    <color name="colorCartRound2">#EE5511</color>
+
+    <color name="colorRed">#AC0D0D</color>
+
+    <color name="colorAppIcon">#23C802</color>
+
+
+
+</resources>
