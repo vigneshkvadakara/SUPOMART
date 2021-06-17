@@ -111,7 +111,7 @@ public class AdapterProduct extends RecyclerView.Adapter<AdapterProduct.viewHold
         public viewHolder(@NonNull View itemView) {
             super(itemView);
 
-            img_main=itemView.findViewById(R.id.img_pro);
+            img_main=itemView.findViewById(R.id.img_pro); 
             img_veg_non=itemView.findViewById(R.id.img_pro_veg);
 
             textName =itemView.findViewById(R.id.text_pro_name);
